@@ -1,0 +1,113 @@
+* {
+margin: 0;
+
+}
+
+body {
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    height: 100vh;
+    font-family: "Open Sans";
+}
+
+
+@font-face {
+    font-family: 'MyWebFont';
+    url('webfont.woff2') format('woff2'),
+
+}
+
+.header {
+    text-align: centre;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+.header h1 {   
+    text-align: center;
+    font-family: 'MyWebFont', sans-serif;
+    font-size: 53px;
+    padding-top: 100px;
+}
+.header p {
+    padding-top: 80px;
+}
+.nature {
+    border-radius: 50%;
+    background-color: #4f6a13;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    
+}
+.tent img {
+    position: absolute;
+    width = 40px;
+    height= 40px;
+    
+}
+.mind {
+    border-radius: 50%;
+    background-color: #4f6a13;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.cell img {   
+    width= 40px;
+    height= 40px;
+}
+.community {
+    border-radius: 50%;
+    background-color: #4f6a13;
+
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.comm img {
+    width = 40px;
+    height = 40px;
+}
+
+.wrap1 {
+    padding-left: 100px;
+    padding-top: 400px;
+}
+
+.wrap2 {
+   
+   padding-left:400px;
+   padding-top: 40%;
+}
+.wrap3 { 
+    
+    padding-left: 100px;
+    padding-top: 400px;
+}
+
+.main {
+    position: relative;
+    left:20vw;
+}
+.footer {
+    background-color: #2D4823;
+    text-align: center;
+    height: 15rem;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    width: 100vw;
+}
+
+.footer h2 {
+    font-family: "Open Sans"; 
+    font-size: 18px;
+    padding-top: 53px;
+}
